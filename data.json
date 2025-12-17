@@ -1,0 +1,218 @@
+{
+  "title": "Séries Mafia",
+  "strap": "Ambiances, familles et codes",
+  "logo": "assets/images/logo.svg",
+  "cta": {
+    "text": "Regarder et analyser",
+    "label": "S'abonner"
+  },
+  "lead": {
+    "headline": "2025 : de Gomorrah à nouvelles sagas",
+    "summary": "Crédibilité et tension.",
+    "body": "Réalisme cru et enjeux moraux.",
+    "date": "1er Décembre 2025",
+    "topic": "Séries",
+    "author": "Lamine",
+    "imageHero": "assets/texture/texture1.jpg",
+    "rating": 4.7,
+    "views": 10200,
+    "read": "7 min",
+    "tags": [
+      "gomorrah",
+      "familles",
+      "codes"
+    ],
+    "titre": "2025 : de Gomorrah à nouvelles sagas",
+    "description": "Crédibilité et tension.",
+    "corps": "Réalisme cru et enjeux moraux.",
+    "theme": "Séries",
+    "auteur": "Lamine"
+  },
+  "stories": [
+    {
+      "headline": "Personnages",
+      "summary": "Leaders et lieutenants.",
+      "body": "Psychologies et arcs.",
+      "date": "28 Novembre 2025",
+      "topic": "Persos",
+      "author": "Rédaction",
+      "image": "assets/texture/texture2.png",
+      "rating": 4.6,
+      "views": 8800,
+      "read": "6 min",
+      "titre": "Personnages",
+      "description": "Leaders et lieutenants.",
+      "corps": "Psychologies et arcs.",
+      "theme": "Persos",
+      "auteur": "Rédaction"
+    },
+    {
+      "headline": "Dialogues et codes",
+      "summary": "Langage et respect.",
+      "body": "Rituel et hiérarchie.",
+      "date": "24 Novembre 2025",
+      "topic": "Culture",
+      "author": "Lamine",
+      "image": "assets/texture/texture3.jpg",
+      "rating": 4.5,
+      "views": 8000,
+      "read": "6 min",
+      "titre": "Dialogues et codes",
+      "description": "Langage et respect.",
+      "corps": "Rituel et hiérarchie.",
+      "theme": "Culture",
+      "auteur": "Lamine"
+    },
+    {
+      "headline": "Ambiances et décors",
+      "summary": "Rues et demeures.",
+      "body": "Authenticité italienne.",
+      "date": "20 Novembre 2025",
+      "topic": "Esthétique",
+      "author": "Rédaction",
+      "image": "assets/texture/texture4.jpg",
+      "rating": 4.3,
+      "views": 7500,
+      "read": "5 min",
+      "titre": "Ambiances et décors",
+      "description": "Rues et demeures.",
+      "corps": "Authenticité italienne.",
+      "theme": "Esthétique",
+      "auteur": "Rédaction"
+    },
+    {
+      "headline": "Tensions et conflits",
+      "summary": "Guerres territoriales.",
+      "body": "Trahisons et alliances.",
+      "date": "16 Novembre 2025",
+      "topic": "Drame",
+      "author": "Lamine",
+      "image": "assets/texture/texture5.jpg",
+      "rating": 4.4,
+      "views": 8200,
+      "read": "6 min",
+      "titre": "Tensions et conflits",
+      "description": "Guerres territoriales.",
+      "corps": "Trahisons et alliances.",
+      "theme": "Drame",
+      "auteur": "Lamine"
+    },
+    {
+      "headline": "Familles et loyautés",
+      "summary": "Sang et business.",
+      "body": "Enjeux existentiels.",
+      "date": "12 Novembre 2025",
+      "topic": "Famille",
+      "author": "Rédaction",
+      "image": "assets/texture/texture6.jpg",
+      "rating": 4.2,
+      "views": 7000,
+      "read": "4 min",
+      "titre": "Familles et loyautés",
+      "description": "Sang et business.",
+      "corps": "Enjeux existentiels.",
+      "theme": "Famille",
+      "auteur": "Rédaction"
+    }
+  ],
+  "topics": [
+    {
+      "title": "Esthétique",
+      "desc": "Lumières et cadre.",
+      "icon": "🎬",
+      "image": "assets/texture/texture7.jpg",
+      "color": "#8B5CF6",
+      "nom": "Esthétique",
+      "description": "Lumières et cadre."
+    },
+    {
+      "title": "Personnages",
+      "desc": "Arcs et psychologie.",
+      "icon": "🎭",
+      "image": "assets/texture/texture7.jpg",
+      "color": "#EF4444",
+      "nom": "Personnages",
+      "description": "Arcs et psychologie."
+    },
+    {
+      "title": "Culture",
+      "desc": "Codes et rituel.",
+      "icon": "🏛️",
+      "image": "assets/texture/texture7.jpg",
+      "color": "#10B981",
+      "nom": "Culture",
+      "description": "Codes et rituel."
+    },
+    {
+      "title": "Drame",
+      "desc": "Conflits et tensions.",
+      "icon": "⚡",
+      "image": "assets/texture/texture7.jpg",
+      "color": "#F59E0B",
+      "nom": "Drame",
+      "description": "Conflits et tensions."
+    },
+    {
+      "title": "Famille",
+      "desc": "Sang et business.",
+      "icon": "👨‍👩‍👧",
+      "image": "assets/texture/texture7.jpg",
+      "color": "#3B82F6",
+      "nom": "Famille",
+      "description": "Sang et business."
+    },
+    {
+      "title": "Séries",
+      "desc": "Recommandations et analyse.",
+      "icon": "📺",
+      "image": "assets/texture/texture7.jpg",
+      "color": "#6B7280",
+      "nom": "Séries",
+      "description": "Recommandations et analyse."
+    }
+  ],
+  "contributors": [
+    {
+      "firstName": "Lamine",
+      "expertise": "Sériphile",
+      "bio": "Analyse et recommandations.",
+      "avatar": "assets/texture/texture7.jpg",
+      "email": "lamine@seriesmafia.com",
+      "articles": 17,
+      "followers": 4200,
+      "prenom": "Lamine",
+      "nom": "",
+      "typeExperience": "Sériphile",
+      "presentation": "Analyse et recommandations.",
+      "image": "assets/texture/texture7.jpg"
+    },
+    {
+      "firstName": "Paolo",
+      "expertise": "Historien série",
+      "bio": "Contexte italien.",
+      "avatar": "assets/texture/texture7.jpg",
+      "email": "paolo@italiani.it",
+      "articles": 16,
+      "followers": 4100,
+      "prenom": "Paolo",
+      "nom": "Ferrari",
+      "typeExperience": "Historien série",
+      "presentation": "Contexte italien.",
+      "image": "assets/texture/texture7.jpg"
+    },
+    {
+      "firstName": "Elena",
+      "expertise": "Critique narrative",
+      "bio": "Psychologie et arcs.",
+      "avatar": "assets/texture/texture7.jpg",
+      "email": "elena@dramalist.com",
+      "articles": 18,
+      "followers": 4400,
+      "prenom": "Elena",
+      "nom": "Rossi",
+      "typeExperience": "Critique narrative",
+      "presentation": "Psychologie et arcs.",
+      "image": "assets/texture/texture7.jpg"
+    }
+  ]
+}
