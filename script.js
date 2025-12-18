@@ -46,7 +46,7 @@ journal.topics.forEach((topic) => {
       // TODO 3: REMPLIR L'ARTICLE PRINCIPAL
        let articlesPrincipale = document.getElementById('article-principal')
       let principal = `<div class= container-full>
- <img src= "${journal.lead.imageHero}" class=hero-image  >
+ <img src= "${journal.lead.imageHero}" class = hero-image  >
  <h3 id = hero-description>${journal.lead.headline}</h3>
  <h2 >${journal.lead.body}</h2>
  <p id = hero-description>${journal.lead.summary}</p>
@@ -72,20 +72,21 @@ journal.stories.forEach(histoire => {
    
  
   </div>`
+  article.insertAdjacentHTML('afterbegin',carte)
 })
  
 
       // TODO 5: REMPLIR LES THEMES
 let themes=document.getElementById('themes-list')
  
-journal.topics.forEach(element => {
+journal.topics.forEach(topic => {
  
   let petiteCarte=`<div class = themes-section>
  
 <div class = theme-item>
-<p class = theme-icon>${element.icon} </p>
-<h3 class= >${element.title}</h3>
-<p class = >${element.description}</p>
+<p class = theme-icon>${topic.icon} </p>
+<h3 class= >${topic.title}</h3>
+<p class = >${topic.description}</p>
 </div>
 </div>
 </div>`
@@ -94,9 +95,33 @@ themes.insertAdjacentHTML("beforeend",petiteCarte)
 });
  
       // TODO 6: REMPLIR LES AUTEURS
+        let auteur=document.getElementById('authors-list')
+      journal.contributors.forEach(contributor => {
+        let carteAuteur=`<div class = authors-section>
+       <div class = container >
+        <div class = author-card>
+     <img src = "${contributor.image}" class = author-image >
+     <h3 class = author-card h3 >${contributor.firstName}</h3>
+       <p>${contributor.expertise} </p>
+        <p ="${contributor.bio} " class = author-bio ></p>
+        <a href class= author-socials a>${contributor.email}</a>
+        </div>
+        </div>
+        </div>`
+      
+auteur.insertAdjacentHTML("beforeend",carteAuteur)
+      })
 
       // TODO 7: REMPLIR LE BOUTON CALL TO ACTION
-
+let boutton=document.getElementById('call-to-action')
+   console.log(boutton);
+   
+      let btn=`<div class= container>
+      <p> Rejoins nous vite!!!</p>
+      <p class= cta-button>${journal.cta.label}</p>
+      </div>`
+           boutton.insertAdjacentHTML("beforeend",btn);
+ 
 
       /// FIN DU CODE
      })
